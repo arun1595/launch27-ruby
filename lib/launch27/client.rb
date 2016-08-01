@@ -27,7 +27,7 @@ module Launch27
         f.url_prefix = "https://acme-sandbox.l27.co/api/auth"
         f.adapter :net_http
 
-        f.headers['User-Agent'] = "Launch27 v#{Launch27::VERSION}"
+        f.headers['User-Agent'] = "Launch27-Ruby v#{Launch27::VERSION}"
         f.headers['Content-Type'] = content_type
         f.headers['Accept'] = api_version
         f.headers['X-API-Key'] = api_key
