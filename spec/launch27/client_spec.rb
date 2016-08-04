@@ -38,12 +38,6 @@ module Launch27
 
         expect(@client.connection.params["email"]).to eq(ENV["LAUNCH27_EMAIL"])
       end
-
-      it "should respond with a single access token" do
-        # binding.pry
-        expect(response).to be_a(String)
-      end
-
     end
   end
 end
